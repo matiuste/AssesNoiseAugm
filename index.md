@@ -6,13 +6,13 @@ For each sample, we include the word error rate (WER) as an accuracy metric and 
 
 As outlined in our paper we investigated three types of training regimes, resulting in three different models, respectively :
 
-1: baseline (no augmentation): This model serves as our control of the clean dataset without any form of augmentation. 
+1: Baseline (no augmentation): This model serves as our control of the clean dataset without any form of augmentation. 
     This baseline establishes the standard level of performance for each model under ideal acoustic conditions.
     
-2: augmentation with speed variations: During the training of the second model temporal variability was introduced into the training data by applying speed perturbations. 
+2: Augmentation with speed variations: During the training of the second model temporal variability was introduced into the training data by applying speed perturbations. 
     These augmentations simulate natural variations in speech tempo, which can occur due to speaker differences or recording conditions.
     
-3: augmentation with speed variations, background noise, and reverberation: The third model is trained with both background noises and reverberations, in addition to speed variations. 
+3: Augmentation with speed variations, background noise, and reverberation: The third model is trained with both background noises and reverberations, in addition to speed variations. 
     This combination aims to mimic more challenging and realistic acoustic environments that ASR systems may encounter in real-world applications.
 
 ### Experiments for the C&W attack.
