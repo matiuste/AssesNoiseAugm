@@ -30,10 +30,10 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066_benign_noise.wav" type="audio/wav" />
 </audio>
-**C&W adversarial**:                  **C&W adversarial + Noise**:  
-[**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47],          [**1**: *WER*=100.0]  
-[**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84],          [**2**: *WER*=100.0]  
-[**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93],          [**3**: *WER*=100.0]  
+**C&W adversarial**:                  
+[**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47]  
+[**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84]  
+[**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066_cw_26022.wav" type="audio/wav" />
 </audio>
@@ -54,10 +54,10 @@ Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY<
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7729-102255-0034_benign_noise.wav" type="audio/wav" />
 </audio>
-**C&W adversarial**:                  **C&W adversarial + Noise**:  
-[**1**: *WER*=00.00, SNR<sub>seg</sub>=22.20],          [**1**: *WER*=100.0]  
-[**2**: *WER*=00.00, SNR<sub>seg</sub>=17.04],          [**2**: *WER*=100.0]  
-[**3**: *WER*=00.00, SNR<sub>seg</sub>=04.13],          [**3**: *WER*=100.0]  
+**C&W adversarial**:                  
+[**1**: *WER*=00.00, SNR<sub>seg</sub>=22.20]  
+[**2**: *WER*=00.00, SNR<sub>seg</sub>=17.04]  
+[**3**: *WER*=00.00, SNR<sub>seg</sub>=04.13]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7729-102255-0034_cw_26022.wav" type="audio/wav" />
 </audio>
@@ -78,10 +78,10 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/2094-142345-0055_benign_noise.wav" type="audio/wav" />
 </audio>
-**C&W adversarial**:                  **C&W adversarial + Noise**:  
-[**1**: *WER*=00.00, SNR<sub>seg</sub>=25.78],          [**1**: *WER*=100.0]  
-[**2**: *WER*=00.00, SNR<sub>seg</sub>=23.94],          [**2**: *WER*=88.89]  
-[**3**: *WER*=00.00, SNR<sub>seg</sub>=22.30],          [**3**: *WER*=100.0]  
+**C&W adversarial**:                  
+[**1**: *WER*=00.00, SNR<sub>seg</sub>=25.78]  
+[**2**: *WER*=00.00, SNR<sub>seg</sub>=23.94]  
+[**3**: *WER*=00.00, SNR<sub>seg</sub>=22.30]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/2094-142345-0055_cw_26022.wav" type="audio/wav" />
 </audio>
