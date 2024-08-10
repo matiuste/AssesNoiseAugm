@@ -253,6 +253,7 @@ Adversarial transcription model 1:  <em>LIFE THEY THESE CHILDREN OF THIS EARTH <
 Adversarial transcription model 2:  <em>WHY FAITH THESE CHILDREN OF THIS FREELY</em>
 Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING</em>
 </pre> &nbsp;
+
 [**1**: *WER*=57.14, SNR<sub>seg</sub>=13.62]  
 [**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
 [**3**: *WER*=28.57, SNR<sub>seg</sub>=13.53]  
@@ -266,9 +267,6 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 ###### Sample 2 
 <pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
 </pre> &nbsp;
-[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
 **Benign**:                    **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
@@ -276,11 +274,15 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
+[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
 
 ### Experiments for the Kenansville attack.
 ###### Sample 1 
 <pre>Benign transcription:       <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEELZEBUB AT ONCE</em>
 </pre> &nbsp;
+
 [**1**: *WER*=41.67, SNR<sub>seg</sub>=22.37]  
 [**2**: *WER*=16.67, SNR<sub>seg</sub>=22.37]  
 [**3**: *WER*=16.67, SNR<sub>seg</sub>=30.53]  
@@ -294,6 +296,7 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 ###### Sample 2 
 <pre>Benign transcription:       <em>WE ARE QUITE SATISFIED NOW CAPTAIN BATTLEAX SAID MY WIFE</em>
 </pre> &nbsp;
+
 [**1**: *WER*=20.00, SNR<sub>seg</sub>=18.76]  
 [**2**: *WER*=20.00, SNR<sub>seg</sub>=11.49]  
 [**3**: *WER*=10.00, SNR<sub>seg</sub>=8.92]  
