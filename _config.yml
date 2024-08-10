@@ -1,4 +1,4 @@
 remote_theme: pages-themes/dinky@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-title: [Reassessing Noise Augmentation Methods in the Context of Adversarial Speech]
+title: [Comparative Study on Noise-Augmented Training and its Effect on Adversarial Robustness in ASR Systems]
