@@ -1,4 +1,4 @@
-# Adversarial example demo
+# Adversarial Example Demo
 
 Supplementary material containing a selection of benign, adversarial, and noisy data employed in our [*paper*]().
 
