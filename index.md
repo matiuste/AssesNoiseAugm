@@ -42,8 +42,12 @@ Adversarial transcription model 3:  <em>LOOK AT THAT HE'LL BE OUT OF IT</em>
 	<source src="audio_clips/c_w/8455-210777-0066_cw_26022.wav" type="audio/wav" />
 </audio>
 ###### Sample 2
-<pre>Benign transcription:       <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
-Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
+<pre>
+Benign transcription:          <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
+Target Adversarial transcription:   <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
+Adversarial transcription model 1:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
+Adversarial transcription model 2:  <em>ONE COULD HARDLY HOPE FOR ANY SLEEP A DAY</em>
+Adversarial transcription model 3:  <em>ONE COULD HARDLY HOPE FOR ANY ONE WHO HAD</em>
 </pre> &nbsp;
 **Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= 1.34  
 [**1**: *WER*=00.00],                 [**1**: *WER*=42.86]  
@@ -63,8 +67,12 @@ Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY<
 	<source src="audio_clips/c_w/7729-102255-0034_cw_26022.wav" type="audio/wav" />
 </audio>
 ###### Sample 3
-<pre>Benign transcription:       <em>BUT YOU KNOW MORE ABOUT THAT THAN I DO SIR</em>
-Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em>
+<pre>
+Benign transcription:       	    <em>BUT YOU KNOW MORE ABOUT THAT THAN I DO SIR</em>
+Target Adversarial transcription:   <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em>
+Adversarial transcription model 1:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em>
+Adversarial transcription model 2:  <em>YES MY DEAR ROGER  I HAVE THE MYSTERY</em>
+Adversarial transcription model 3:  <em>YES MY DEAR CHILD I AM AFRAID OF THE ELEMENTS</em>
 </pre> &nbsp;
 **Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= -0.41  
 [**1**: *WER*=00.00],                 [**1**: *WER*=50.00]  
@@ -92,7 +100,6 @@ Adversarial transcription model 1:  <em>LIFE THEY THESE CHILDREN OF THIS EARTH <
 Adversarial transcription model 2:  <em>WHY FAITH THESE CHILDREN OF THIS FREELY</em>
 Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING</em>
 </pre> &nbsp;
-**Alzantot adversarial**:  
 [**1**: *WER*=57.14, SNR<sub>seg</sub>=13.62]  
 [**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
 [**3**: *WER*=28.57, SNR<sub>seg</sub>=13.53]  
@@ -106,7 +113,6 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 ###### Sample 2 
 <pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
 </pre> &nbsp;
-**Alzantot adversarial**:  
 [**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
 [**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
 [**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
@@ -122,7 +128,6 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 ###### Sample 1 
 <pre>Benign transcription:       <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEELZEBUB AT ONCE</em>
 </pre> &nbsp;
-**Kenansville adversarial**:  
 [**1**: *WER*=41.67, SNR<sub>seg</sub>=22.37]  
 [**2**: *WER*=16.67, SNR<sub>seg</sub>=22.37]  
 [**3**: *WER*=16.67, SNR<sub>seg</sub>=30.53]  
@@ -136,7 +141,6 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 ###### Sample 2 
 <pre>Benign transcription:       <em>WE ARE QUITE SATISFIED NOW CAPTAIN BATTLEAX SAID MY WIFE</em>
 </pre> &nbsp;
-**Kenansville adversarial**:  
 [**1**: *WER*=20.00, SNR<sub>seg</sub>=18.76]  
 [**2**: *WER*=20.00, SNR<sub>seg</sub>=11.49]  
 [**3**: *WER*=10.00, SNR<sub>seg</sub>=8.92]  
