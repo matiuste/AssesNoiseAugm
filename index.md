@@ -25,9 +25,9 @@ Adversarial transcription model 2:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 Adversarial transcription model 3:  <em>LOOK AT THAT HE'LL BE OUT OF IT</em>
 </pre> &nbsp;
 **Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= -4.81  
-[**1**: *WER*=14.29],                 [**1**: *WER*=71.43]  
+[**1**: *WER*=00.00],                 [**1**: *WER*=71.43]  
 [**2**: *WER*=00.00],                 [**2**: *WER*=57.14]  
-[**3**: *WER*=14.29],                 [**3**: *WER*=14.29]  
+[**3**: *WER*=00.00],                 [**3**: *WER*=14.29]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066.wav" type="audio/wav" />
 </audio>
@@ -50,8 +50,8 @@ Adversarial transcription model 2:  <em>ONE COULD HARDLY HOPE FOR ANY SLEEP A DA
 Adversarial transcription model 3:  <em>ONE COULD HARDLY HOPE FOR ANY ONE WHO HAD</em>
 </pre> &nbsp;
 **Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= 1.34  
-[**1**: *WER*=00.00],                 [**1**: *WER*=42.86]  
-[**2**: *WER*=00.00],                 [**2**: *WER*=28.57]  
+[**1**: *WER*=00.00],                 [**1**: *WER*=57.14]  
+[**2**: *WER*=00.00],                 [**2**: *WER*=00.00]  
 [**3**: *WER*=00.00],                 [**3**: *WER*=0.00]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7729-102255-0034.wav" type="audio/wav" />
@@ -75,8 +75,8 @@ Adversarial transcription model 2:  <em>YES MY DEAR ROGER  I HAVE THE MYSTERY</e
 Adversarial transcription model 3:  <em>YES MY DEAR CHILD I AM AFRAID OF THE ELEMENTS</em>
 </pre> &nbsp;
 **Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= -0.41  
-[**1**: *WER*=00.00],                 [**1**: *WER*=50.00]  
-[**2**: *WER*=00.00],                 [**2**: *WER*=40.00]  
+[**1**: *WER*=00.00],                 [**1**: *WER*=30.00]  
+[**2**: *WER*=00.00],                 [**2**: *WER*=10.00]  
 [**3**: *WER*=00.00],                 [**3**: *WER*=10.00]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/2094-142345-0055.wav" type="audio/wav" />
