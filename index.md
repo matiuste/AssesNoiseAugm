@@ -17,8 +17,12 @@ As outlined in our paper we investigated three types of training regimes, result
 
 ### Experiments for the C&W attack.
 ###### Sample 1 
-<pre>Benign transcription:       <em>THEY OF COURSE MUST ALL BE ALTERED</em>
-Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
+<pre>
+Benign transcription:       	    <em>THEY OF COURSE MUST ALL BE ALTERED</em>
+Target Adversarial transcription:   <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
+Adversarial transcription model 1:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
+Adversarial transcription model 2:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
+Adversarial transcription model 3:  <em>LOOK AT THAT HE'LL BE OUT OF IT</em>
 </pre> &nbsp;
 **Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= -4.81  
 [**1**: *WER*=14.29],                 [**1**: *WER*=71.43]  
@@ -32,8 +36,8 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 </audio>
 **C&W adversarial**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47]  
-[**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84]  
-[**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93]  
+[**2**: *WER*=00.00, SNR<sub>seg</sub>=18.84]  
+[**3**: *WER*=50.00, SNR<sub>seg</sub>=15.93]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066_cw_26022.wav" type="audio/wav" />
 </audio>
