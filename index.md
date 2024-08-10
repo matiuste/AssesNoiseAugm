@@ -53,8 +53,8 @@ Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY<
 </audio>
 **C&W adversarial**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=22.20]  
-[**2**: *WER*=00.00, SNR<sub>seg</sub>=17.04]  
-[**3**: *WER*=00.00, SNR<sub>seg</sub>=04.13]  
+[**2**: *WER*=27.27, SNR<sub>seg</sub>=17.04]  
+[**3**: *WER*=45.45, SNR<sub>seg</sub>=04.13]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7729-102255-0034_cw_26022.wav" type="audio/wav" />
 </audio>
@@ -69,15 +69,15 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/2094-142345-0055.wav" type="audio/wav" />
 </audio>
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/2094-142345-0055_benign_noise.wav" type="audio/wav" />
+</audio>
 **C&W adversarial**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=25.78]  
-[**2**: *WER*=00.00, SNR<sub>seg</sub>=23.94]  
-[**3**: *WER*=00.00, SNR<sub>seg</sub>=22.30]  
+[**2**: *WER*=22.22, SNR<sub>seg</sub>=23.94]  
+[**3**: *WER*=55.56, SNR<sub>seg</sub>=22.30]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/2094-142345-0055_cw_26022.wav" type="audio/wav" />
-</audio>
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/2094-142345-0055_cw_noise_26022.wav" type="audio/wav" />
 </audio>
 
 ### Experiments for the Alzantot attack.
