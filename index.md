@@ -37,9 +37,6 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066_cw_26022.wav" type="audio/wav" />
 </audio>
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/8455-210777-0066_cw_noise_26022.wav" type="audio/wav" />
-</audio>
 ###### Sample 2
 <pre>Benign transcription:       <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
 Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
@@ -61,9 +58,6 @@ Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY<
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7729-102255-0034_cw_26022.wav" type="audio/wav" />
 </audio>
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7729-102255-0034_cw_noise_26022.wav" type="audio/wav" />
-</audio>
 ###### Sample 3
 <pre>Benign transcription:       <em>BUT YOU KNOW MORE ABOUT THAT THAN I DO SIR</em>
 Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em>
@@ -74,9 +68,6 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 [**3**: *WER*=00.00],                 [**3**: *WER*=10.00]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/2094-142345-0055.wav" type="audio/wav" />
-</audio>
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/2094-142345-0055_benign_noise.wav" type="audio/wav" />
 </audio>
 **C&W adversarial**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=25.78]  
