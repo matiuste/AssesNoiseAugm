@@ -100,9 +100,6 @@ Adversarial transcription model 1:  <em>LIFE THEY THESE CHILDREN OF THIS EARTH <
 Adversarial transcription model 2:  <em>WHY FAITH THESE CHILDREN OF THIS FREELY</em>
 Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING</em>
 </pre> &nbsp;
-[**1**: *WER*=57.14, SNR<sub>seg</sub>=13.62]  
-[**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
-[**3**: *WER*=28.57, SNR<sub>seg</sub>=13.53]  
 **Benign**:                    **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0003.wav" type="audio/wav" />
@@ -110,6 +107,10 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0003_19862.wav" type="audio/wav" />
 </audio>
+[**1**: *WER*=57.14, SNR<sub>seg</sub>=13.62]  
+[**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
+[**3**: *WER*=28.57, SNR<sub>seg</sub>=13.53]  
+
 ###### Sample 2 
 <pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
 </pre> &nbsp;
