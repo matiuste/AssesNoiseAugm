@@ -82,12 +82,16 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 
 ### Experiments for the Alzantot attack.
 ###### Sample 1 
-<pre>Benign transcription:       <em>WHY FADE THESE CHILDREN OF THE SPRING</em>
+<pre>
+Benign transcription:       	    <em>WHY FADE THESE CHILDREN OF THE SPRING</em>
+Adversarial transcription model 1:  <em>LIFE THEY THESE CHILDREN OF THIS EARTH </em>
+Adversarial transcription model 2:  <em>WHY FAITH THESE CHILDREN OF THIS FREELY</em>
+Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING</em>
 </pre> &nbsp;
 **Alzantot adversarial**:  
-[**1**: *WER*=42.86, SNR<sub>seg</sub>=13.62]  
+[**1**: *WER*=57.14, SNR<sub>seg</sub>=13.62]  
 [**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
-[**3**: *WER*=14.29, SNR<sub>seg</sub>=29.48]  
+[**3**: *WER*=28.57, SNR<sub>seg</sub>=13.53]  
 **Benign**:                    **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0003.wav" type="audio/wav" />
