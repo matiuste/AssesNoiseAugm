@@ -118,9 +118,6 @@ Adversarial transcription model 1:  <em>THE CLOUD THEN SHOWED HE SCOLDED IN HIS 
 Adversarial transcription model 2:  <em>THE CLOUD THEN SHOWED HE'S GOLDEN IN HIS RIGHT FORMERLY</em>
 Adversarial transcription model 3:  <em>THE CLOUDS THEN SHEWED HIS GOLDEN HEAD AND HIS BRIGHT FOREARMS</em>
 </pre> &nbsp;
-[**1**: *WER*=58.33, SNR<sub>seg</sub>=11.57]  
-[**2**: *WER*=58.33, SNR<sub>seg</sub>=11.58]  
-[**3**: *WER*=33.33, SNR<sub>seg</sub>=11.56]  
 **Benign**:                    **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
@@ -128,6 +125,9 @@ Adversarial transcription model 3:  <em>THE CLOUDS THEN SHEWED HIS GOLDEN HEAD A
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
+[**1**: *WER*=58.33, SNR<sub>seg</sub>=11.57]  
+[**2**: *WER*=58.33, SNR<sub>seg</sub>=11.58]  
+[**3**: *WER*=33.33, SNR<sub>seg</sub>=11.56]  
 
 ### Experiments for the Kenansville attack.
 ###### Sample 1 
@@ -137,9 +137,6 @@ Adversarial transcription model 1:  <em>IF THERE'S BEEN A LITTLE BIT WILD HE'S B
 Adversarial transcription model 2:  <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BELLS ABOUT AT ONCE</em>
 Adversarial transcription model 3:  <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEEN ABOUT AT ONCE</em>
 </pre> &nbsp;
-[**1**: *WER*=41.67, SNR<sub>seg</sub>=22.37]  
-[**2**: *WER*=16.67, SNR<sub>seg</sub>=22.37]  
-[**3**: *WER*=16.67, SNR<sub>seg</sub>=30.53]  
 **Benign**:                    **Kenansville adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/kenansville/5683-32866-0007.wav" type="audio/wav" />
@@ -147,6 +144,10 @@ Adversarial transcription model 3:  <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/kenansville/5683-32866-0007_26020.wav" type="audio/wav" />
 </audio>
+[**1**: *WER*=41.67, SNR<sub>seg</sub>=22.37]  
+[**2**: *WER*=16.67, SNR<sub>seg</sub>=22.37]  
+[**3**: *WER*=16.67, SNR<sub>seg</sub>=30.53]  
+
 ###### Sample 2 
 <pre>
 Benign transcription:       	    <em>WE ARE QUITE SATISFIED NOW CAPTAIN BATTLEAX SAID MY WIFE</em>
@@ -154,9 +155,6 @@ Adversarial transcription model 1:  <em>WE ARE QUITE SATISFIED NOW CAPTAIN BOTTL
 Adversarial transcription model 2:  <em>WE ARE QUITE SATISFIED NOW CATHERINES SAID MY WIFE</em>
 Adversarial transcription model 3:  <em>WE ARE QUITE SATISFIED NOW CAPTAIN BOTTLES SAID MY WIFE</em>
 </pre> &nbsp;
-[**1**: *WER*=20.00, SNR<sub>seg</sub>=18.76]  
-[**2**: *WER*=20.00, SNR<sub>seg</sub>=11.49]  
-[**3**: *WER*=10.00, SNR<sub>seg</sub>=8.92]  
 **Benign**:                    **Kenansville adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/kenansville/8455-210777-0006.wav" type="audio/wav" />
@@ -164,3 +162,7 @@ Adversarial transcription model 3:  <em>WE ARE QUITE SATISFIED NOW CAPTAIN BOTTL
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/kenansville/8455-210777-0006_26020.wav" type="audio/wav" />
 </audio>
+[**1**: *WER*=20.00, SNR<sub>seg</sub>=18.76]  
+[**2**: *WER*=20.00, SNR<sub>seg</sub>=11.49]  
+[**3**: *WER*=10.00, SNR<sub>seg</sub>=8.92]  
+
