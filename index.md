@@ -43,7 +43,7 @@ Adversarial transcription model 3:  <em>LOOK AT THAT HE'LL BE OUT OF IT</em>
 </audio>
 ###### Sample 2
 <pre>
-Benign transcription:          <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
+Benign transcription:               <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
 Target Adversarial transcription:   <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
 Adversarial transcription model 1:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
 Adversarial transcription model 2:  <em>ONE COULD HARDLY HOPE FOR ANY SLEEP A DAY</em>
@@ -107,16 +107,20 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0003_19862.wav" type="audio/wav" />
 </audio>
-[**1**: *WER*=57.14, SNR<sub>seg</sub>=13.62]  
+[**1**: *WER*=57.14, SNR<sub>seg</sub>=13.53]  
 [**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
 [**3**: *WER*=28.57, SNR<sub>seg</sub>=13.53]  
 
 ###### Sample 2 
-<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
+<pre>
+Benign transcription:       	    <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
+Adversarial transcription model 1:  <em>THE CLOUD THEN SHOWED HE SCOLDED IN HIS RIGHT FORM ALONE</em>
+Adversarial transcription model 2:  <em>THE CLOUD THEN SHOWED HE'S GOLDEN IN HIS RIGHT FORMERLY</em>
+Adversarial transcription model 3:  <em>THE CLOUDS THEN SHEWED HIS GOLDEN HEAD AND HIS BRIGHT FOREARMS</em>
 </pre> &nbsp;
-[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
+[**1**: *WER*=58.33, SNR<sub>seg</sub>=11.57]  
+[**2**: *WER*=58.33, SNR<sub>seg</sub>=11.58]  
+[**3**: *WER*=33.33, SNR<sub>seg</sub>=11.56]  
 **Benign**:                    **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
@@ -127,7 +131,11 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 
 ### Experiments for the Kenansville attack.
 ###### Sample 1 
-<pre>Benign transcription:       <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEELZEBUB AT ONCE</em>
+<pre>
+Benign transcription:               <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEELZEBUB AT ONCE</em>
+Adversarial transcription model 1:  <em>IF THERE'S BEEN A LITTLE BIT WILD HE'S BEYOND THE BUBB AT ONCE</em>
+Adversarial transcription model 2:  <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BELLS ABOUT AT ONCE</em>
+Adversarial transcription model 3:  <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEEN ABOUT AT ONCE</em>
 </pre> &nbsp;
 [**1**: *WER*=41.67, SNR<sub>seg</sub>=22.37]  
 [**2**: *WER*=16.67, SNR<sub>seg</sub>=22.37]  
@@ -140,7 +148,11 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 	<source src="audio_clips/kenansville/5683-32866-0007_26020.wav" type="audio/wav" />
 </audio>
 ###### Sample 2 
-<pre>Benign transcription:       <em>WE ARE QUITE SATISFIED NOW CAPTAIN BATTLEAX SAID MY WIFE</em>
+<pre>
+Benign transcription:       	    <em>WE ARE QUITE SATISFIED NOW CAPTAIN BATTLEAX SAID MY WIFE</em>
+Adversarial transcription model 1:  <em>WE ARE QUITE SATISFIED NOW CAPTAIN BOTTLE AXE SAID MY WIFE</em>
+Adversarial transcription model 2:  <em>WE ARE QUITE SATISFIED NOW CATHERINES SAID MY WIFE</em>
+Adversarial transcription model 3:  <em>WE ARE QUITE SATISFIED NOW CAPTAIN BOTTLES SAID MY WIFE</em>
 </pre> &nbsp;
 [**1**: *WER*=20.00, SNR<sub>seg</sub>=18.76]  
 [**2**: *WER*=20.00, SNR<sub>seg</sub>=11.49]  
