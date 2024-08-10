@@ -97,7 +97,7 @@ Adversarial transcription model 3:  <em>DON'T FEED THESE CHILDREN OF THE SPRING<
 	<source src="audio_clips/Alzantot/908-157963-0003.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Alzantot/908-157963-0003_26020.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0003_19862.wav" type="audio/wav" />
 </audio>
 ###### Sample 2 
 <pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
