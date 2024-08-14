@@ -62,7 +62,7 @@ Adversarial transcription model 3:  <em>ONE COULD HARDLY HOPE FOR ANY ONE WHO HA
 **Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= 1.34  
 [**1**: *WER*=00.00],                 [**1**: *WER*=57.14]  
 [**2**: *WER*=00.00],                 [**2**: *WER*=00.00]  
-[**3**: *WER*=00.00],                 [**3**: *WER*=0.00]  
+[**3**: *WER*=00.00],                 [**3**: *WER*=00.00]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7729-102255-0034.wav" type="audio/wav" />
 </audio>
