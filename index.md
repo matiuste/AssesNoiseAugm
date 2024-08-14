@@ -74,7 +74,7 @@ Adversarial transcription model 3:  <em>ONE COULD HARDLY HOPE FOR ANY ONE WHO HA
 [**2**: *WER*=27.27, SNR<sub>seg</sub>=17.04]  
 [**3**: *WER*=45.45, SNR<sub>seg</sub>=04.13]  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7729-102255-0034_cw_26022.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/7729-102255-0034_26020.wav" type="audio/wav" />
 </audio>
 ###### Sample 3
 <pre>
@@ -99,7 +99,7 @@ Adversarial transcription model 3:  <em>YES MY DEAR CHILD I AM AFRAID OF THE ELE
 [**2**: *WER*=22.22, SNR<sub>seg</sub>=23.94]  
 [**3**: *WER*=55.56, SNR<sub>seg</sub>=22.30]  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/2094-142345-0055_cw_26022.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/2094-142345-0055_26020.wav" type="audio/wav" />
 </audio>
 
 ### Experiments for the Alzantot attack.
