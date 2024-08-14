@@ -23,6 +23,8 @@ The key takeaway from the following samples is that models trained with augmenta
 
 Additionally, lower SNR<sub>seg</sub>​ values for models trained with augmentation suggest that these models require more noise to create effective adversarial examples, indicating a higher degree of robustness.
 
+Please note that the adversarial samples are crafted per model. In the following, we report the WER and SNR<sub>seg</sub> for the adversarial sample for each model, using the seq2seq model architecture described in our paper. However, we only play the sample generated with respect to model 3 (Augmentation with speed variations, background noise, and reverberation).
+
 ### Experiments for the C&W attack.
 ###### Sample 1 
 <pre>
