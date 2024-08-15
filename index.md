@@ -17,13 +17,13 @@ As outlined in our paper we investigated three types of training regimes, result
 
 The key takeaway from the following samples is that models trained with augmentation methods tend to be more robust against adversarial attacks. This robustness is demonstrated by two main observations:
 
-- **Higher WER for C&W targeted white-box Attack:** A model is considered more robust if it produces a higher WER when using the target transcription as the reference. This means that the adversarial attack is less successful in forcing the model to recognize the target transcription.
+- **Higher WER for C&W targeted white-box attack:** A model is considered more robust if it produces a higher WER when using the target transcription as the reference. This means that the adversarial attack is less successful in forcing the model to recognize the target transcription.
 
-- **Lower WER for Alzantot and Kenansville untargeted black-box Attacks:** A model is considered more robust if it produces a lower WER when using the original ground truth as the reference. This indicates that the adversarial attack is less effective at distorting the recognition of the original audio.
+- **Lower WER for Alzantot and Kenansville untargeted black-box attacks:** A model is considered more robust if it produces a lower WER when using the original ground truth as the reference. This indicates that the adversarial attack is less effective at distorting the recognition of the original audio.
 
 Additionally, lower SNR<sub>seg</sub>​ values for models trained with augmentation suggest that these models require more noise to create effective adversarial examples, indicating a higher degree of robustness.
 
-Please note that the adversarial samples are crafted per model. In the following, we report the WER and SNR<sub>seg</sub> for the adversarial sample for each model, using the seq2seq model architecture described in our paper. However, we only play the adversarial example generated with respect to model 3 (Augmentation with speed variations, background noise, and reverberation).
+Please note that the adversarial samples are crafted per model. In the following, we report the WER and SNR<sub>seg</sub> for the adversarial sample for each model, using the seq2seq model architecture described in our paper. However, we only play the adversarial example generated with respect to model 3 (augmentation with speed variations, background noise, and reverberation).
 
 ### Experiments for the C&W attack.
 ###### Sample 1 
